@@ -1,0 +1,10 @@
+{
+  "home": {
+    "title": "Next.js (i18n) with DatoCMS",
+    "button": "Go to contact page"
+  },
+  "contact": {
+    "title": "Contact Page",
+    "button": "Back to home"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "home": {
+    "title": "Next.js (i18n) con DatoCMS",
+    "button": "Ir a la página de contacto"
+  },
+  "contact": {
+    "title": "Página de Contacto",
+    "button": "Volver al inicio"
+  }
+}
