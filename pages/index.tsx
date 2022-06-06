@@ -1,8 +1,8 @@
 import type { GetStaticProps, NextPage } from "next";
 import type { PageProps, AllPostProps } from "lib/types";
 import Link from "next/link";
-import { getAllPosts } from "lib/db";
 import Container from "components/Container";
+import { getAllPosts } from "lib/db";
 
 type Props = {
   page: PageProps;

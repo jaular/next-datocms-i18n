@@ -9,17 +9,19 @@ const LenguageSelector = () => {
         locale: event.target.value,
       });
     } else {
-      router.push("/");
+      router.push("/", "/", {
+        locale: event.target.value,
+      });
     }
   };
 
   return (
-    <>
+    <div>
       <select onChange={changeLang} defaultValue={router.locale}>
         <option value="en">English</option>
         <option value="es">Español</option>
       </select>
-    </>
+    </div>
   );
 };
 
